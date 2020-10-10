@@ -5,7 +5,6 @@ export function FooterContainer() {
   return (
     <Footer>
       <Footer.Title>Questions? Contact us.</Footer.Title>
-      <Footer.Break />
       <Footer.Row>
         <Footer.Column>
           <Footer.Link href="#">FAQ</Footer.Link>
@@ -36,7 +35,6 @@ export function FooterContainer() {
           <Footer.Link href="#">Legal Notices</Footer.Link>
         </Footer.Column>
       </Footer.Row>
-      <Footer.Break />
       <Footer.Text>Netflix United Kingdom</Footer.Text>
     </Footer>
   );
